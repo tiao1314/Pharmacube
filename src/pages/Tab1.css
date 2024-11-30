@@ -1,0 +1,79 @@
+/* Tab1.css */
+
+/* General container */
+.tab1-container {
+    font-family: Arial, sans-serif;
+    background-color: white; /* White background */
+    padding-bottom: 50px; /* Ensure there's space at the bottom for the tab bar */
+    display: flex;
+    flex-direction: column; /* Use column layout */
+    align-items: center; /* Center content horizontally */
+    min-height: 100vh; /* Make sure it takes full height */
+  }
+  
+  /* Header Styles */
+  .ion-header {
+    background-color: #388e3c; /* Keep green for header */
+    color: white;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  /* Header Notification styles (empty) */
+  .header-notifications {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 16px;
+    padding-right: 15px;
+  }
+  
+  /* Search Bar Styling */
+  .search-bar {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: #ffffff; /* White background for search bar */
+    padding: 10px;
+    width: 100%;
+    max-width: 500px; /* Ensure the search bar doesn't stretch too wide */
+  }
+  
+  /* Card Styling */
+  .ion-card {
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Set a max-width for cards */
+    margin-bottom: 20px;
+  }
+  
+  /* User and Medication Info Card */
+  .user-medication-card {
+    background-color: #dcedc8; /* Light green */
+    padding: 15px;
+  }
+  
+  /* Medication List Card */
+  .medication-list-card {
+    background-color: #ffffff; /* White background for the list card */
+    padding: 15px;
+  }
+  
+  /* Ion Label Styling */
+  .ion-label {
+    font-size: 16px;
+    color: #388e3c; /* Green for labels */
+    font-weight: bold;
+  }
+  
+  /* Submit Button Styling */
+  .submit-button {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 25px;
+    background-color: #388e3c; /* Green button */
+    color: white;
+  }
+  
